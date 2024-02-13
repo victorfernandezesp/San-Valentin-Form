@@ -1,0 +1,68 @@
+body {
+    background-image: url('../img/imagenfondo.jpeg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.frasecursi {
+    font-size: 4em;
+    color: #ffffff;
+
+    animation: float 1s infinite alternate;
+}
+button {
+    background-color: #ffffff;
+    color: #af4e4e;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+@keyframes float {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #ffd0d0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #e17259;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
